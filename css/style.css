@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+    background-image: url("../img/Fundo-de-Arco-Íris.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    padding: 25px;
+    margin: 10px auto;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+#produtos{
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+}
+
+#carrinho{
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+    display: block;
+}
+
+.produto-single{
+    width:33.3%;
+    padding:0 20px;
+}
+
